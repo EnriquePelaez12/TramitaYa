@@ -12,8 +12,24 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
   },
   {
-    path: 'list',
-    loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
+    path: 'correo',
+    loadChildren: () => import('./componentes/correo/correo.module').then( m => m.CorreoPageModule)
+  },
+  {
+    path: 'cfe',
+    loadChildren: () => import('./componentes/cfe/cfe.module').then( m => m.CFEPageModule)
+  },
+  {
+    path: 'curp',
+    loadChildren: () => import('./componentes/curp/curp.module').then( m => m.CURPPageModule)
+  },
+  {
+    path: 'acta-nacimiento',
+    loadChildren: () => import('./componentes/acta-nacimiento/acta-nacimiento.module').then( m => m.ActaNacimientoPageModule)
+  },
+  {
+    path: 'acerca-de',
+    loadChildren: () => import('./componentes/acerca-de/acerca-de.module').then( m => m.AcercaDePageModule)
   }
 ];
 

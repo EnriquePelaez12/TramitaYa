@@ -16,10 +16,31 @@ export class AppComponent {
       url: '/home',
       icon: 'home'
     },
+
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
+      title: 'Correo',
+      url: '/correo',
+      icon: 'mail'
+    },
+    {
+      title: 'CFE',
+      url: '/cfe',
+      icon: 'document'
+    },
+    {
+      title: 'CURP',
+      url: '/curp',
+      icon: 'flash'
+    },
+    {
+      title: 'Acta De Nacimiento',
+      url: '/acta-nacimiento',
+      icon: 'paper'
+    },
+    {
+      title: 'Acerca de',
+      url: '/acerca-de',
+      icon: 'information-circle-outline'
     }
   ];
 
