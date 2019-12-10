@@ -17,4 +17,6 @@ import { AcercaDePage } from './acerca-de.page';
   ],
   declarations: [AcercaDePage]
 })
+
+//
 export class AcercaDePageModule {}
